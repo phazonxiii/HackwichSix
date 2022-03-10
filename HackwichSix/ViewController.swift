@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var myFriendsArray = ["Jerry", "Peterson", "Hildegard"]
+    var friendsHomeArray = ["Charlotte", "Baltimore", "Weatherford"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
@@ -23,6 +24,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")
         let text = myFriendsArray[indexPath.row]
         cell?.textLabel?.text = text
+        cell?.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         return cell!
     }
     
