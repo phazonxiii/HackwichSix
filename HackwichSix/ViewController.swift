@@ -28,6 +28,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell!
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+        
+    }
+    
     var restarurantImageData = [String]()
     
     override func viewDidLoad() {
