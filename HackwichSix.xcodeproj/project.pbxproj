@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981D90E427EAA4AC00C1FB94 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981D90E327EAA4AC00C1FB94 /* Property List.plist */; };
 		9830299327DAA22C0060C605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830299227DAA22C0060C605 /* AppDelegate.swift */; };
 		9830299527DAA22C0060C605 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830299427DAA22C0060C605 /* SceneDelegate.swift */; };
 		9830299727DAA22C0060C605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830299627DAA22C0060C605 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981D90E327EAA4AC00C1FB94 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		9830298F27DAA22C0060C605 /* HackwichSix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichSix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9830299227DAA22C0060C605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9830299427DAA22C0060C605 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				9830299427DAA22C0060C605 /* SceneDelegate.swift */,
 				9830299627DAA22C0060C605 /* ViewController.swift */,
 				9830299827DAA22C0060C605 /* Main.storyboard */,
+				981D90E327EAA4AC00C1FB94 /* Property List.plist */,
 				9830299B27DAA22F0060C605 /* Assets.xcassets */,
 				9830299D27DAA22F0060C605 /* LaunchScreen.storyboard */,
 				983029A027DAA22F0060C605 /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				9830299F27DAA22F0060C605 /* LaunchScreen.storyboard in Resources */,
 				9830299C27DAA22F0060C605 /* Assets.xcassets in Resources */,
+				981D90E427EAA4AC00C1FB94 /* Property List.plist in Resources */,
 				9830299A27DAA22C0060C605 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

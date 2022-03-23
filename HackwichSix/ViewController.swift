@@ -28,10 +28,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell!
     }
     
+    var restarurantImageData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        
+        restarurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
+        
     }
 
     
