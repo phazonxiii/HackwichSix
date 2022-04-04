@@ -73,8 +73,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rMO-cv-0C2">
-                                <rect key="frame" x="44" y="79" width="326" height="344"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m7A-53-BHY">
+                                <rect key="frame" x="87" y="33" width="240" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -83,7 +83,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="bk3-vV-URc"/>
                     <connections>
-                        <outlet property="imageView" destination="rMO-cv-0C2" id="ZIG-gD-a3x"/>
+                        <outlet property="imageView" destination="m7A-53-BHY" id="BgB-WF-OgX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgT-Dy-S7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

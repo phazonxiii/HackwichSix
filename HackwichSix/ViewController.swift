@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var friendsHomeArray = ["Charlotte", "Baltimore", "Weatherford"]
     
-    var restarurantImageData = [String]()
+    var restaurantImageData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let path = Bundle.main.path(forResource: "Property List", ofType: "plist")
         let dict = NSDictionary(contentsOfFile: path!)
         
-        restarurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
+        restaurantImageData = dict!.object(forKey:"restaurantImages") as! [String]
         
     }
     
@@ -58,8 +58,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if segue.identifier == "mySegue"
         {
             let s1 = segue.destination as! detailViewController
-            let imageIndex = tableView.indexPathfForSelectedRow?.row
-            s1.imagePass = restarurantImageData[imageIndex!]
+            let imageIndex = tableView.indexPathForSelectedRow?.row
+            s1.imagePass = restaurantImageData[imageIndex!]
         }
     }
 }
